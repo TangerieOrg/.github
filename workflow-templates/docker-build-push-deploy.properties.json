@@ -1,0 +1,8 @@
+{
+    "name": "Docker - Build/Push/Deploy",
+    "description": "Builds the root Dockerfille then pushes the image and then deploys on runner",
+    "filePatterns": [
+        "^Dockerfile",
+        "^docker-compose.yml"
+    ]
+}
